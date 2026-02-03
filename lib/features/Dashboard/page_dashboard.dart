@@ -8,7 +8,7 @@ class PageDashboard extends StatelessWidget {
   Widget build(BuildContext context) {
     return Scaffold(  
       appBar: AppBar(
-        backgroundColor: Colors.red,
+        backgroundColor:Colors.blue,
         title: const Text('Dashboard'),
       ), 
       body: const WidgetPage(),
