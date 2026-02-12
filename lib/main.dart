@@ -1,9 +1,10 @@
 import 'package:flutter/material.dart';
 import 'package:coffee_card/features/Dashboard/page_dashboard.dart';
+import 'package:coffee_card/features/Column/page_column.dart';
 
 void main() {
   //runApp(const MyApp());
-  runApp(const MaterialApp(home: PageDashboard()));
+  runApp(const MaterialApp(home: PageColumn()));
 }
 
 class MyApp extends StatelessWidget {
